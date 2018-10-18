@@ -1,0 +1,46 @@
+{
+  "name": "cash-flow",
+  "version": "5.7.0",
+  "description": "Security and watches with Angular",
+  "homepage": "http://academia-binaria.com/categories/Tutorial/Angular/",
+  "author": {
+    "name": "Alberto Basalo",
+    "url": "https://twitter.com/albertobasalo"
+  },
+  "license": "MIT",
+  "scripts": {
+    "ng": "ng",
+    "start": "ng serve --aot -o",
+    "start-prod": "ng serve -e prod -o",
+    "build": "ng build",
+    "test": "ng test",
+    "lint": "ng lint",
+    "e2e": "ng e2e"
+  },
+  "private": true,
+  "dependencies": {
+    "@angular/animations": "^6.1.7",
+    "@angular/common": "^6.1.7",
+    "@angular/compiler": "^6.1.7",
+    "@angular/core": "^6.1.7",
+    "@angular/forms": "^6.1.7",
+    "@angular/http": "^6.1.7",
+    "@angular/platform-browser": "^6.1.7",
+    "@angular/platform-browser-dynamic": "^6.1.7",
+    "@angular/router": "^6.1.7",
+    "@ngrx/store": "^6.1.0",
+    "@ngrx/store-devtools": "^6.1.0",
+    "core-js": "^2.4.1",
+    "milligram": "^1.3.0",
+    "moment": "^2.20.1",
+    "rxjs": "^6.3.2",
+    "zone.js": "^0.8.19"
+  },
+  "devDependencies": {
+    "@angular-devkit/build-angular": "~0.8.0",
+    "@angular/cli": "^6.2.1",
+    "@angular/compiler-cli": "^6.1.7",
+    "@angular/language-service": "^6.1.7",
+    "typescript": "~2.9.2"
+  }
+}
