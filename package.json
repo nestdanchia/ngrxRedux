@@ -1,11 +1,11 @@
 {
   "name": "cash-flow",
   "version": "5.7.0",
-  "description": "Security and watches with Angular",
+  "description": "Security and watches with Angular Implemente ngrx en el ejemplo",
   "homepage": "http://academia-binaria.com/categories/Tutorial/Angular/",
   "author": {
-    "name": "Alberto Basalo",
-    "url": "https://twitter.com/albertobasalo"
+    "name": "Nestor chiariello",
+    "url": "http://www.linkedin.com/in/nestordanielchiariello"
   },
   "license": "MIT",
   "scripts": {

@@ -4,16 +4,16 @@ import { Component, OnInit } from "@angular/core";
   selector: "cf-footer",
   template: `
     <footer>
-      Developed by <a href="https://twitter.com/albertobasalo">Alberto Basalo</a>
+      Developed by Nestor ngrx de un Ejemplo de  Angular 6 Alberto Basalo <a href="http://www.linkedin.com/in/nestordanielchiariello">Nestor Chiariello</a>
     </footer>
   `,
   styles: [
     `
-    footer{
-      border-top: .1rem solid;
-      text-align: center;
-    }
-  `
+      footer {
+        border-top: 0.1rem solid;
+        text-align: center;
+      }
+    `
   ]
 })
 export class FooterComponent implements OnInit {
