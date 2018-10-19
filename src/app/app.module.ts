@@ -8,6 +8,7 @@ import { LibModule } from "./lib/lib.module";
 import { StoreDevtoolsModule } from "@ngrx/store-devtools";
 import { StoreModule } from "@ngrx/store";
 import { Reducer } from "./Redux/app.reducer";
+// http://www.mclibre.org/consultar/informatica/lecciones/vsc-git-repositorio.html
 //https://alligator.io/angular/angular-6/
 @NgModule({
   declarations: [AppComponent],
