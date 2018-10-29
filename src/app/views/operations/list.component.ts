@@ -20,7 +20,7 @@ import { Operation } from "./operation.class";
       <td><a [routerLink]="[operation._id]">{{ operation._id }}</a></td>  
       <td>{{ operation.description }}</td>
       <td>{{ operation.kind }}</td>
-      <td>{{ operation.amount | number:'7.2-2' }}</td>
+      <td>{{ operation.amount | number }}</td>
       <td><button (click)="deleteOperation(operation)">Delete</button> </td>
     </tr>
   </tbody>
@@ -32,9 +32,12 @@ import { Operation } from "./operation.class";
   styles: []
 })
 export class ListComponent implements OnInit {
-  @Input() public numberOfOperations = 0;
-  @Input() public operations: Operation[] = [];
-  @Output() public delete = new EventEmitter<Operation>();
+  @Input()
+  public numberOfOperations = 0;
+  @Input()
+  public operations: Operation[] = [];
+  @Output()
+  public delete = new EventEmitter<Operation>();
 
   public title = "List of Operations";
   constructor() {}
