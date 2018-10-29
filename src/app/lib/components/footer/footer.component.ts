@@ -4,7 +4,7 @@ import { Component, OnInit } from "@angular/core";
   selector: "cf-footer",
   template: `
     <footer>
-      Developed by Nestor ngrx de un Ejemplo de  Angular 6 Alberto Basalo <a href="http://www.linkedin.com/in/nestordanielchiariello">Nestor Chiariello</a>
+      Developed by Nestor Chiariello ngrx sobre un Ejemplo de  Angular 6 Alberto Basalo <a href="http://www.linkedin.com/in/nestordanielchiariello">Nestor Chiariello</a>
     </footer>
   `,
   styles: [
