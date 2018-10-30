@@ -67,7 +67,7 @@ export class CredentialsComponent implements OnInit {
       const actionAnonimo = new SetAnonymousAction(false);
       this.store.dispatch(actionAnonimo);
       //this.store.emitUserToken(responseData.token);
-      this.router.navigateByUrl("/");
+      this.router.navigateByUrl("/operations");
     } else {
       this.invalidCredentials();
     }
