@@ -39,10 +39,15 @@ import { Operation } from "./operation.class";
   styles: []
 })
 export class NewComponent implements OnInit {
-  @Input() public numberOfOperations = 0;
-  @Output() public save = new EventEmitter<Operation>();
+  @Input()
+  public numberOfOperations = 0;
+  @Input()
+  public kindsOfOperations = [];
 
-  public kindsOfOperations = ["Income", "Expense"];
+  @Output()
+  public save = new EventEmitter<Operation>();
+
+  //public kindsOfOperations = ["Income", "Expense"];
   public operation: Operation = new Operation();
   public title = "New Operation";
 

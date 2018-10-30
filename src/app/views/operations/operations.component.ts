@@ -3,7 +3,8 @@ import { Operation } from "./operation.class";
 import { OperationsService } from "./operations.service";
 //import { StoreService } from "../../lib/store.service";
 import { Store } from "@ngrx/store";
-
+// este componente actua como controlador
+// para guardar o modificar datos
 import { AppState } from "../../Redux/app.state";
 import { SetuserMessageAction } from "../../Redux/userMessage/userMessage.actions";
 @Component({
@@ -11,6 +12,7 @@ import { SetuserMessageAction } from "../../Redux/userMessage/userMessage.action
   template: `
     <cf-new 
       [numberOfOperations]="numberOfOperations" 
+      [kindsOfOperations]="kindsOfOperations"
       (save)="saveOperation($event)">
     </cf-new>
     <cf-list 
@@ -24,6 +26,7 @@ import { SetuserMessageAction } from "../../Redux/userMessage/userMessage.action
 export class OperationsComponent implements OnInit {
   public numberOfOperations = 0;
   public operations: Operation[] = [];
+  public kindsOfOperations = ["Income", "Expense"];
   //private store: StoreService
   constructor(
     private operationsService: OperationsService,
